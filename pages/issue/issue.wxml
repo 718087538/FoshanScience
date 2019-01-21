@@ -1,0 +1,23 @@
+<!--pages/issue/issue.wxml-->
+<view class='content'>
+  <form>
+    <view class='line1'><view>名称：</view>  <input type='text' placeholder='果果机器人' style='text-align:right' placeholder-class='placehoder-color'></input></view>
+    <view class='line1'><view>专利号：</view>  <input type='text' placeholder='请输入专利号' style='text-align:right' placeholder-class='placehoder-color'></input></view>
+    <view class='line1'><view>价格：</view>  <input type='text' placeholder='请输入价格' style='text-align:right' placeholder-class='placehoder-color'></input></view>
+    <view class='main-wrod'>关键词</view>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+    <view class='chengguo'>成果描述：</view>
+      <textarea type='text' placeholder='请描述该科研成果'></textarea>
+    <view class='img-box'>
+      <image src='/images/smallpeople.png'></image>
+      <image src='/images/takephoto.png'></image>
+    </view>
+  </form>
+</view>
+
+
+<view class='submit'>发布</view>

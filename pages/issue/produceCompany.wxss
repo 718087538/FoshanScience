@@ -1,0 +1,36 @@
+/* pages/issue/produceCompany.wxss */
+@import "issue.wxss";
+
+page{
+  background-color: #EEF3F6;
+}
+.search{
+  margin: 20rpx 30rpx 0;
+  position: relative;
+}
+.search-input{
+  border-radius: 32rpx;
+  background-color: #fff;
+  padding-left: 23rpx;
+  padding-right:80rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  font-size: 28rpx;
+  box-shadow: 0 2rpx 18rpx 3rpx rgba(68,164,254,0.15);
+}
+.search-logo{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+}
+.content{
+  padding-top:30rpx; 
+}
+/* 顶部搜素结束 */
+
+
+textarea{
+  height: 134rpx;
+}

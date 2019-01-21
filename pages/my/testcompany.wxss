@@ -1,0 +1,2 @@
+/* pages/my/testcompany.wxss */
+@import "science.wxss";

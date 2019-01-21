@@ -1,0 +1,34 @@
+<!--pages/my/edit.wxml-->
+<view class='img-box'>
+  <image class='topimg' src='/images/swiper.png'></image>
+</view>
+
+
+
+<view class='content'>
+  <form>
+    <view class='line1'><view>姓名</view>  <input type='text' value='请输入题目' style='text-align:right'></input></view>
+    <view class='line1'><view>性别</view>  <input type='text' value='男' style='text-align:right'></input></view>
+    <view class='line1'><view>地址</view>  <input type='text' value='广东省广州市番禺区' style='text-align:right'></input></view>
+    <view class='line1' id='noline'><view>联系电话</view>  <input type='text' value='13044228297' style='text-align:right'></input></view>
+
+<!-- 单选是否对外显示 -->
+    <view class='line1'><view class='show-color'>是否对外显示</view>
+      <radio-group class='show-color'>
+        <radio name="show-y" value='是' color="#2e9aff" checked='checked'>是</radio>
+        <radio name="show-n" value='否' color="#2e9aff">否</radio>
+      </radio-group>
+    </view>
+
+
+
+    <view class='line1'><view>微信号</view>  <input type='text' value='13211221133' style='text-align:right'></input></view>
+    <view class='line1'><view>单位名称</view>  <input type='text' value='' style='text-align:right' placeholder='请输入单位名称' placeholder-class='font-color'></input></view>
+    <view class='line1'><view>职位</view>  <input type='text' value='' style='text-align:right' placeholder='请输入职位 'placeholder-class='font-color'></input></view>
+    <view class='line1'><view>学历</view>  <input type='text' value='' style='text-align:right' placeholder='请输入学历' placeholder-class='font-color'></input></view>
+  </form>
+</view>
+
+<view class='submit'>保存</view>
+
+<view style='height:180rpx;'></view>

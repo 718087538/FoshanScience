@@ -1,0 +1,15 @@
+/* pages/my/news.wxss */
+@import "mycare.wxss";
+.list-news{
+  padding-left: 30rpx;
+}
+.go{
+  width: 20rpx;
+  height: 20rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #999;
+  border-style: solid;
+  right: 40rpx;
+  top: 50rpx;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,17 @@
+<!--pages/my/systemNews.wxml-->
+<navigator class='list' url='/pages/my/systemNewsDeta'>
+  <view class='list-info'>
+    <image class='news-logo' src='/images/notice.png'></image>
+    <view class='news-title'>My.you通过您的分享进入小程序</view>
+  </view>
+  <view>2018.12.28</view>
+</navigator>
+
+<navigator class='list'>
+  <view class='list-info'>
+    <image class='news-logo' src='/images/notice.png'></image>
+    <view class='news-title'>My.you通过您的分享进入小程序</view>
+  </view>
+  <view>2018.12.28</view>
+</navigator>
+

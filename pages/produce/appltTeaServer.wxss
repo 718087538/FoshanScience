@@ -1,0 +1,35 @@
+/* pages/produce/appltTeaServer.wxss */
+@import "/pages/my/science.wxss";
+.server-ask{
+  padding: 10rpx;
+  border: 1rpx solid #eee;
+  height: 200rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.content{
+  padding: 0;
+  padding-bottom: 30rpx;
+  color: #666;
+}
+.line1{
+  padding: 0 26rpx 20rpx;
+}
+input{
+  color:#666;
+  text-align: right;
+  font-size: 28rpx;
+}
+.incolor{
+  color: #d8d8d8;
+  font-size: 28rpx;
+}
+.submit{
+  margin-top: 300rpx;
+}
+.server{
+  margin-bottom:15rpx;
+  margin-top: 20rpx;
+  margin-left:30rpx;
+
+}

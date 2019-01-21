@@ -1,0 +1,50 @@
+<!--template/bottom/bottom.wxml-->
+<!-- 底部导航模板 -->
+<template name="bottomnav">
+  <view class='bottom-nav'>
+    <view class='nav1 nav' bindtap='toggleindex'>
+      <image class='nav-img' src='{{index}}'></image>
+      <view class='nav-text {{navcolor1}}'>首页</view>
+    </view>
+
+    <view class='nav2 nav' bindtap='togglemake'>
+      <image class='nav-img' src='{{make}}'></image>
+      <view class='nav-text {{navcolor2}}'>发布</view>
+    </view>
+
+    <view class='nav3 nav' bindtap='togglemy'>
+      <image class='nav-img' src='{{my}}'></image>
+      <view class='nav-text {{navcolor3}}'>我的</view>
+    </view>
+  </view>
+</template>
+
+<!-- 发布的消息 -->
+<template name="list">
+<view class='list'>
+  <view class='list-user'>
+
+  <navigator url='/pages/university/myindex'>
+    <image class='list-user-pic' src='/images/user.png'></image>
+  </navigator>
+
+    <view class='list-user-info'>
+
+      <navigator class='list-user-left' url='/pages/university/myindex'>
+        <view class='user-name'>某某企业</view>
+        <view class='user-item'>项目名称</view>
+      </navigator>
+
+      <view class='list-user-right'>
+        <view class='like'>关注</view>
+        <view class='favorites'>收藏</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list-info'>
+  某某企业需求详细描述，某某企业需求详细描述，某某企业需求
+详细描述，某某企业需求详细描述，某某企业需求详细描述。
+  </view>
+</view>
+</template>

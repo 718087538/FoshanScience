@@ -1,0 +1,35 @@
+/* pages/my/science.wxss */
+page{
+  background-color: #eBF1F5;
+}
+.content{
+  margin: 20rpx 32rpx 0 32rpx;
+  background-color: #fff;
+  padding:0rpx 26rpx;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.line1{
+  display: flex;
+  margin-top: 30rpx;
+  justify-content: space-between; 
+  padding-bottom: 30rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.line1:last-child{
+  border-bottom: 0;
+}
+/* 注册 */
+.submit{
+  	width: 509rpx;
+	height: 92rpx;
+	background-color: #2e9aff;
+	border-radius: 8rpx;
+  font-size: 46rpx;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 92rpx;
+  margin-top: 100rpx;
+}

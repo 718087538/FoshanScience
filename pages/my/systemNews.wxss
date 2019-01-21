@@ -1,0 +1,30 @@
+/* pages/my/systemNews.wxss */
+page{
+  background-color:#f7f7f7;
+}
+.list{
+  font-size: 24rpx;
+  color: #999;
+  display: flex;
+  height: 75rpx;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 33rpx;
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+.list-info{
+  height:88rpx;
+  line-height:75rpx;
+}
+.news-logo{
+  display: inline-block;
+  width:36rpx;
+  height: 34rpx;
+  margin-right: 20rpx;
+  vertical-align:middle;
+}
+.news-title{
+  display: inline-block;
+  vertical-align:middle;
+}

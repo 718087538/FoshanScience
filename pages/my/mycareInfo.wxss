@@ -1,0 +1,125 @@
+/* pages/my/mycareInfo.wxss */
+@import "/pages/university/university.wxss";
+
+.list{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.like{
+  border: none;
+  color: #2e9aff;
+}
+.img-list>image{
+  width: 188rpx;
+  height: 200rpx;
+  margin: 10rpx 34rpx 10rpx 0;
+}
+.list-info{
+  margin-bottom: 20rpx;
+}
+.maintext{
+  border: 1rpx solid #999;
+  padding: 0 20rpx;
+  font-size: 32rpx;
+  color: #999;
+  margin-bottom: 20rpx;
+  border-radius: 6rpx;
+}
+
+.main-text-wraper{
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.price {
+  font-size: 26rpx;
+  color: #2e9aff;
+  margin-bottom: 20rpx;
+}
+.img-list>image{
+  height: 222rpx;
+}
+.pinglun{
+  margin-left: 30rpx;
+  font-weight: bold;
+}
+.text-border{
+  border-bottom: 1rpx solid #f8f8f8;
+  margin-bottom: 30rpx;
+  padding-bottom: 30rpx;
+}
+/* 评论图片的css */
+.img-list .pinglun-img{
+  width: 164rpx;
+}
+.img-list .pinglun-img:nth-child(3n+3){
+  margin-right: 0;
+}
+
+/* 底部一键联系和评论 */
+.inme-call {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #2e9aff;
+  text-align: center;
+  color: #fff;
+  line-height: 90rpx;
+}
+.half-btn{
+  width: 50%;
+}
+.call{
+  background-color: #57Aeff;
+}
+
+.pinglun{
+  margin-left: 0rpx;
+}
+.pinglun-box{
+  position: fixed;
+  top: 0;
+  width: 750rpx;
+  height: 100%;
+  font-size: 30rpx;
+  font-weight:none;
+  background-color: rgba(90, 90, 90, 0.5);
+  
+}
+.pinglun-box .pinglun{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: #F5F5F5;
+  overflow: hidden;
+}
+textarea{
+  background-color: #fff;
+  margin-left: 35rpx;
+  margin-top: 22rpx;
+  border-radius: 10rpx;
+  width: 530rpx;
+  height: 230rpx;
+  padding: 10rpx;
+  margin-bottom: 60rpx;
+}
+.submit{
+  width: 110rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #2e9aff;
+  margin-top: 210rpx;
+}
+.textarea{
+  padding: 10rpx;
+}
+.call-way{
+  padding-bottom: 0rpx;
+}

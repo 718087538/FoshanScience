@@ -1,0 +1,97 @@
+<!--pages/my/my-shoucang-info.wxml-->
+<view class='list'>
+  <view class='list-user'>
+
+    <navigator url='/pages/university/myindex'>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </navigator>
+
+    <view class='list-user-info'>
+
+      <navigator class='list-user-left' url='/pages/university/myindex'>
+        <view class='user-name'>虎超科技</view>
+        <view class='user-item'>佛山科研成果</view>
+      </navigator>
+    </view>
+  </view>
+
+  <navigator url='/pages/university/issue-delail'>
+    <view class='list-info'>
+      某某企业需求详细描述，某某企业需求详细描述，某某企业需求 详细描述，某某企业需求详细描述，某某企业需求详细描述。
+    </view>
+
+    <view class='img-list'>
+      <image src='/images/smallpeople.png'></image>
+      <image src='/images/smallpeople.png'></image>
+    </view>
+    <view class='price'>价格：￥36666</view>
+
+    <!-- 关键词 -->
+    <view class='main-text-wraper'>
+      <view class='maintext' wx:for="{{maintext}}" wx:key>{{item}}</view>
+    </view>
+  </navigator>
+</view>
+
+<!-- 下面是评论的内容 -->
+<view class='pinglun'>评论</view>
+<view class='list'>
+  <view class='list-user'>
+    <navigator url=''>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </navigator>
+    <view class='list-user-info text-border'>
+      <navigator class='list-user-left'>
+        <view class='user-name'>大黄蜂</view>
+        <view class='user-item'>科研成果描述， 科研成果描述， 科研成果描述， 科研 成果描述，科研成果描述，科研成果描述，科研成。
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+  <view class='list-user'>
+    <navigator url=''>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </navigator>
+    <view class='list-user-info text-border'>
+      <navigator class='list-user-left'>
+        <view class='user-name'>擎天柱</view>
+        <view class='user-item'>科研成果描述， 科研成果描述， 科研成果描述， 科研 成果描述，科研成果描述，科研成果描述，科研成。</view>
+        <view class='img-list'>
+          <image class='pinglun-img' src='/images/smallpeople.png'></image>
+          <image class='pinglun-img' src='/images/smallpeople.png'></image>
+          <image class='pinglun-img' src='/images/smallpeople.png'></image>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<!-- 底部的一键联系和评论 -->
+<view class='inme-call'>
+  <view class='half-btn call' bindtap='call'>一键联系</view>
+  <view class='half-btn' bindtap='pinglun'>评论</view>
+</view>
+
+
+<!-- 弹出联系或评论 -->
+<view class='call-wraper {{displaynone}}'>
+  <view class='call-way'>
+    <view class='getwx'>添加微信</view>
+    <view class='getphone'>拨打电话</view>
+  <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view> 
+
+<view class='pinglun-box {{pinglun}}'>
+  <view class='pinglun'>
+    <textarea class="textarea" type='textarea' placeholder='写评论...'  placeholder-class='textarea'></textarea>
+    <view class="submit" form-type='submint'>发送</view>
+    <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view>
+
+
+
+<!-- 底部的空白 -->
+<view style="height:50rpx;"></view>

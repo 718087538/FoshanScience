@@ -1,0 +1,13 @@
+/* pages/my/issueInfo.wxss */
+@import "/pages/university/issue-delail.wxss";
+.like{
+  margin-top: 10rpx;
+}
+.pinglun{
+  height: 260rpx;
+  padding: 0 40rpx 30rpx 0;
+}
+.textarea{
+  margin-left: 30rpx;
+}
+

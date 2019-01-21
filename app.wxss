@@ -1,0 +1,92 @@
+page{
+  color: #333333;
+}
+.displaynone{
+  display:none;
+}
+
+/* 弹出加微信注册等 */
+.call-wraper{
+  position: fixed;
+  top: 0;
+  background-color: rgba(90, 90, 90, 0.5);
+  width:100%;
+  height:100%;
+}
+.call-way{
+  background-color: #fff;
+  width: 562rpx;
+  border-radius: 10rpx;
+  margin: 50% auto auto;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60rpx;
+}
+.getwx,.getphone{
+  width: 375rpx;
+	height: 92rpx;
+  line-height: 92rpx;
+  font-size: 38rpx;
+  color: #fff;
+  background-color: #2e9aff;
+  border-radius: 6rpx;
+  margin: 0 auto;
+  text-align: center;
+}
+.getwx{
+  margin-top: 60rpx;
+}
+.getphone{
+  margin-top: 30rpx;
+}
+/* 右上角关闭 */
+.right-top-close{
+  position: absolute;
+  right:6rpx;
+  top:-14rpx;
+  color: #999999;
+  font-size: 61rpx;
+  transform: rotate(45deg);
+}
+
+/* 一键联系和评论 */
+
+/* 一键联系 */
+
+.call-wraper{
+  position: fixed;
+  top: 0;
+  background-color: rgba(90, 90, 90, 0.5);
+  width:100%;
+  height:100%;
+}
+.call-way{
+  background-color: #fff;
+  width: 562rpx;
+  height: 350rpx;
+  border-radius: 10rpx;
+  margin: 50% auto auto;
+  overflow: hidden;
+  position: relative;
+}
+.getwx,.getphone{
+  width: 375rpx;
+	height: 92rpx;
+  line-height: 92rpx;
+  font-size: 38rpx;
+  color: #fff;
+  background-color: #2e9aff;
+  border-radius: 6rpx;
+  margin: 0 auto;
+  text-align: center;
+}
+.getwx{
+  margin-top: 60rpx;
+}
+.getphone{
+  margin-top: 30rpx;
+}
+
+boreder{
+  opacity: 0.3;
+}

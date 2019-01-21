@@ -1,0 +1,128 @@
+<!--pages/index/index.wxml-->
+<view class='roll-out'>
+  <swiper autoplay interval="4000" duration="500" class='roll' current='{{current}}' bindchange='getCurrent' circular='true'>
+    <block wx:for="{{imgUrls}}" wx:key>
+      <swiper-item>
+        <image src="{{item}}" class="roll-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='toleft' bindtap='toleft'></view>
+  <view class='toright' bindtap='toright'></view>
+</view>
+<!-- 轮播图结束 -->
+<view class='notice'>
+  <image class='notice-img' src='/images/notice.png'></image>
+  <view class='notice-text'>我是一个广播栏，我可以滚动，我会提醒平台出示的信息我会提醒平台出示的信息</view>
+</view>
+
+
+<view class='content'>
+  <navigator class='user' url='/pages/university/university'>
+    <view class='user-line1'>
+      <image class='user-img1' src='/images/where.png'></image>
+      <view class='user-title'>高校科研机构</view>
+    </view>
+    <view class='user-intro'>我是高校科研机构介绍</view>
+  </navigator>
+
+  <navigator class='user' url='/pages/produce/produceCompany'>
+    <view class='user-line1'>
+      <image class='user-img2' src='/images/company.png'></image>
+      <view class='user-title'>生产企业</view>
+    </view>
+    <view class='user-intro'>我是高校科研机构介绍</view>
+  </navigator>
+
+  <navigator class='user' url='/pages/testCompany/testCompany'>
+    <view class='user-line1'>
+      <image class='user-img3' src='/images/test.png'></image>
+      <view class='user-title'>检测机构</view>
+    </view>
+    <view class='user-intro'>我是高校科研机构介绍</view>
+  </navigator>
+
+  <navigator class='user' url='/pages/my/my'>
+    <view class='user-line1'>
+      <image class='user-img4' src='/images/my2.png'></image>
+      <view class='user-title'>个人中心(注册)</view>
+    </view>
+    <view class='user-intro'>我是高校科研机构介绍</view>
+  </navigator>
+</view>
+<!-- 平台简介 -->
+<view class='app-intro'>
+  小程序平台简介
+</view>
+<navigator class='my-intro' url="/pages/index/platform">
+  <view class='intro-line1'>
+    <view class='intro-line1-left'>平台简介</view>
+    <view class='intro-line1-right'>18-12-32</view>
+  </view>
+  <view class='intro-line2'>
+    佛大科研平台是积极发挥宁波港综合物流优势和浙江电子港综合物流优势和浙口岸...
+  </view>
+</navigator>
+
+<!-- 底部导航栏 -->
+
+
+<view class='bottom-nav'>
+  <view class='nav1 nav'>
+    <image class='nav-img' src='{{index}}'></image>
+    <view class='nav-text {{navcolor1}}'>首页</view>
+  </view>
+
+  <view class='nav2 nav' bindtap='togglemake'>
+    <image class='nav-img' src='{{make}}'></image>
+    <view class='nav-text {{navcolor2}}'>发布</view>
+  </view>
+
+  <navigator class='nav3 nav' url='/pages/my/my'>
+    <image class='nav-img' src='{{my}}'></image>
+    <view class='nav-text {{navcolor3}}'>我的</view>
+  </navigator>
+</view>
+
+<!-- 弹出未注册 -->
+<view class='content-wran {{displaynone}}'>
+  <view class='wraper'>
+    <view class="wran-text">您还没有注册，不能发布~</view>
+    <view class='wran-btn'>
+      <view class='wran-btn-close'>取消</view>
+      <view class='wran-btn-jion'>去注册</view>
+    </view>
+    <view class='right-top-close'>+</view>
+  </view>
+</view>
+
+
+<!-- 选择发布类型 -->
+<view class='call-wraper {{selectedmake}} fixedbtm1'>
+  <view class='call-way fixedbtm2'>
+    <view class='getwx' bindtap='schoolmake'>高校科研发布</view>
+    <view class='getphone' bindtap='companymake'>企业发布</view>
+    <navigator class='getphone' url='/pages/issue/testServer'>检测服务发布</navigator>
+    <navigator class='getphone' url='/pages/issue/teachnologyServer'>技术服务发布</navigator>
+  <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view> 
+
+<!-- 选择高校科研发布的身份 -->
+<view class='call-wraper {{schoolmake}} fixedbtm1'>
+  <view class='call-way fixedbtm2'>
+    <navigator class='getwx' url="/pages/issue/issue">高校科研单位发布</navigator>
+    <navigator class='getphone' url="/pages/issue/peopleIssue">高校科研个人发布</navigator>
+  <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view> 
+
+
+<!-- 选择企业发布的身份 -->
+<view class='call-wraper {{companyMake}} fixedbtm1'>
+  <view class='call-way fixedbtm2'>
+    <navigator class='getwx' url="/pages/issue/produceCompany">生产企业单位发布</navigator>
+    <navigator class='getphone' url="/pages/issue/producePeople">生产企业个人发布</navigator>
+  <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view> 

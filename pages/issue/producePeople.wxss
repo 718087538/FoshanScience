@@ -1,0 +1,2 @@
+/* pages/issue/producePeople.wxss */
+@import "/pages/issue/produceCompany.wxss";

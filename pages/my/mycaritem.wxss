@@ -1,0 +1,2 @@
+/* pages/my/mycaritem.wxss */
+@import "/pages/my/my-Care.wxss";

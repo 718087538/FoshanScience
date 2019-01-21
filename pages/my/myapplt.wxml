@@ -1,0 +1,35 @@
+<!--pages/my/myapplt.wxml-->
+<view class='title-out'>
+  <view class='title'>
+    <view class='title-info {{tabid==1?"show":""}}' data-id='1' bindtap='clickTab'>已完成</view>
+    <view class='title-info {{tabid==2?"show":""}}' data-id='2' bindtap='clickTab'>正在进行</view>
+  </view>
+</view>
+
+<block wx:if="{{tabid==1}}">
+<view class='box'>
+  <view class='list'>
+    <view>果果机器人服务项目</view>
+    <view class='loading'>已完成</view>
+  </view>
+  <view class='list'>
+    <view>智能AI交互机器人服务项目</view>
+    <view class='loading'>已完成</view>
+  </view>
+</view>
+</block>
+
+
+<block wx:if="{{tabid==2}}">
+<view class='box'>
+  <view class='list'>
+    <view>果果机器人服务项目</view>
+    <view class='loading'>正在进行中</view>
+  </view>
+  <view class='list'>
+    <view>智能AI交互机器人服务项目</view>
+    <view class='loading'>正在进行中</view>
+  </view>
+</view>
+
+</block>

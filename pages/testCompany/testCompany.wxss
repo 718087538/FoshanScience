@@ -1,0 +1,96 @@
+/* pages/testCompany/testCompany.wxss */
+page{
+  background-color: #eff3f6;
+}
+.search{
+  display: flex;
+  height: 60rpx;
+  padding: 24rpx 30rpx;
+  position: relative;
+
+}
+.input{
+  box-sizing: border-box;
+  font-size:32rpx;
+  color: #666;
+  width: 548rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  background: #fff;
+  border-radius:32rpx; 
+  padding-left: 28rpx;
+  padding-right: 60rpx;
+
+}
+.search-logo{
+  width: 34rpx;
+  height: 34rpx;
+  position: absolute;
+  right: 190rpx;
+  top:36rpx; 
+  }
+.make{
+  font-size: 32rpx;
+  color: #2e9aff;
+  height: 64rpx;
+  line-height: 64rpx;
+  margin-left: 30rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.make-add{
+  font-size: 42rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+/* 搜索到此结束 */
+
+
+.server-item{
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+}
+.ser-title{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.ser-deta{
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+  color: #666;
+}
+.ser-img-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ser-img{
+  width: 218rpx;
+  height: 226rpx;
+  margin-right: 26rpx;
+  margin-bottom: 26rpx;
+}
+.ser-img:nth-child(3n+3){
+  margin-right:0rpx;
+}
+.price{
+  color: #2e9aff;
+  font-size: 36rpx;
+}
+
+
+/* 选择发布类型 */
+.fixedbtm1{
+  height: 1000rpx;
+  z-index: 999;
+}
+.fixedbtm2{
+  position: fixed;
+  width: 100%;
+  border-radius: 0;
+  bottom:0rpx;
+  }
+.call-way{
+  height: 300rpx;
+}

@@ -1,0 +1,7 @@
+<!--template/nav/nav.wxml-->
+<template name="nav">
+  <view class='line'>
+    <view class='line-item'>我要注册</view><view class='line-go'></view>
+  </view>
+</template>
+

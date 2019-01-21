@@ -1,0 +1,5 @@
+/* pages/my/my-Care.wxss */
+@import "/pages/university/myindex.wxss";
+.like{
+  color:#999;
+}

@@ -1,0 +1,14 @@
+<!--pages/produce/appltTeaServer.wxml-->
+<view class='content'>
+  <form>
+    <view class='line1'><view>名称</view><input type='text' placeholder='请输入名称' placeholder-class='incolor'></input></view>
+    <view class='line1'><view>样品数</view><input type='text' placeholder='请输入样品数量' placeholder-class='incolor'></input></view>
+    <view class='line1'><view>经费预算</view><input type='text' placeholder='请输入预算经费'  placeholder-class='incolor'></input></view>
+    <view class='server'>服务要求</view>
+    <textarea class='server-ask' placeholder='请输入服务要求...'  placeholder-class='incolor'>
+    </textarea>
+  </form>
+</view>
+
+
+<view class='submit'>提交</view>

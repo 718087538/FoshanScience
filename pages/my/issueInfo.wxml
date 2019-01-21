@@ -1,0 +1,89 @@
+<!--pages/my/issueInfo.wxml-->
+<view class='list'>
+  <view class='list-user'>
+
+    <view>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </view>
+
+    <view class='list-user-info'>
+
+      <view class='list-user-left'>
+        <view class='user-name'>虎超科技</view>
+        <view class='user-item'>佛山科研成果</view>
+      </view>
+      <view class='list-user-right'>
+        <view class='like'>删除</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='list-info'>
+    某某企业需求详细描述，某某企业需求详细描述，某某企业需求 详细描述，某某企业需求详细描述，某某企业需求详细描述。
+  </view>
+
+  <view class='img-list'>
+    <image src='/images/smallpeople.png'></image>
+    <image src='/images/smallpeople.png'></image>
+  </view>
+
+  <view class='price'>价格：￥36666</view>
+
+  <!-- 关键词 -->
+  <view class='main-text-wraper'>
+    <view class='maintext' wx:for="{{maintext}}" wx:key>{{item}}</view>
+  </view>
+</view>
+
+<view class='write'>评论</view>
+
+
+<view class='write-box'>
+  <view class='write1'>
+    <image class='wrire-img' src='/images/user.png'></image>
+    <view class='write-user'>
+      <view class='name'>某某人</view>
+      <view class='text'>科研成果描述， 科研成果描述， 科研成果描述， 科研成果描述，科研成果描述，科研成果描述，科研成。</view>
+    </view>
+  </view>
+
+
+  <view class='write1'>
+    <image class='wrire-img' src='/images/user.png'></image>
+    <view class='write-user'>
+      <view class='name'>某某人</view>
+      <view class='text'>科研成果描述， 科研成果描述， 科研成果描述， 科研成果描述，科研成果描述，科研成果描述，科研成。</view>
+      <view class='img-list'>
+        <image src='/images/smallpeople.png'></image>
+        <image src='/images/smallpeople.png'></image>
+        <image src='/images/smallpeople.png'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class=''>
+
+</view>
+
+<!-- 底部的评论 -->
+<view class='inme-call' bindtap='write'>
+  评论
+</view>
+
+<view class='pinglun-box {{pinglun}}'>
+  <view class='pinglun'>
+    <textarea class="textarea" type='textarea' placeholder='写评论...'  placeholder-class='textarea'></textarea>
+    <view class="submit" form-type='submint'>发送</view>
+    <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view>
+
+
+
+
+
+
+<!-- 底部的空白 -->
+<view style="height:90rpx;"></view>

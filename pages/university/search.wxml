@@ -1,0 +1,6 @@
+<!--pages/university/search.wxml-->
+<view class='search'>
+  <input class='input' type='text' placeholder='请输入关键词' focus='true'></input>
+  <image class='search-logo' src='/images/search.png'></image>
+  <view class="make">搜索</view>
+</view>

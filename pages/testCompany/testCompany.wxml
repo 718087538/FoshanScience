@@ -1,0 +1,44 @@
+<!--pages/testCompany/testCompany.wxml-->
+<view class='search'>
+  <navigator class='input' url='/pages/university/search'>搜索企业、检测申请</navigator>
+  <image class='search-logo' src='/images/search.png'></image>
+  <view class="make" bindtap='issue'><text class='make-add'>+</text> 发布</view>
+</view>
+<!-- 顶部搜索结束 -->
+
+
+<view class='server-item'>
+  <view class='ser-title'>果果机器人检测服务</view>
+  <view class='ser-deta'>
+  科研成果描述， 科研成果描述， 科研成果描述， 科研成果描述，
+  科研成果描述，科研成果描述，科研成果描述。
+  </view>
+  <view class='ser-img-box'>
+    <image class='ser-img' src='/images/smallpeople.png'></image>
+    <image class='ser-img' src='/images/smallpeople.png'></image>
+  </view>
+  <view class='price'>￥6333</view>
+</view>
+
+<view class='server-item'>
+  <view class='ser-title'>果果机器人检测服务</view>
+  <view class='ser-deta'>
+  科研成果描述， 科研成果描述， 科研成果描述， 科研成果描述，
+  科研成果描述，科研成果描述，科研成果描述。
+  </view>
+  <view class='ser-img-box'>
+    <image class='ser-img' src='/images/smallpeople.png'></image>
+    <image class='ser-img' src='/images/smallpeople.png'></image>
+  </view>
+  <view class='price'>￥6333</view>
+</view>
+
+
+<!-- 选择发布的类型 -->
+<view class='call-wraper {{Test}} fixedbtm1'>
+  <view class='call-way fixedbtm2'>
+    <navigator class='getwx' url="/pages/issue/issue" url='/pages/issue/testServer'>检测服务项目发布</navigator>
+    <navigator class='getphone' url="/pages/issue/peopleIssue" url='/pages/testCompany/teacnology-zizhi'>技术服务项目发布</navigator>
+  <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view> 

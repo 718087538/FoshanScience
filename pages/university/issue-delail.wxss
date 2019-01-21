@@ -1,0 +1,183 @@
+/* pages/university/issue-delail.wxss */
+@import "/pages/university/myindex";
+
+.list {
+  margin-bottom: 0;
+  padding-bottom: 10rpx;
+}
+
+.price {
+  font-size: 26rpx;
+  color: #2e9aff;
+  margin-bottom: 10rpx;
+}
+
+.main-text-wraper {
+  flex-wrap: wrap;
+}
+
+.maintext {
+  margin-bottom: 16rpx;
+  
+}
+
+/* 评论 */
+
+.write {
+  margin-left: 33rpx;
+  font-size: 42rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+/* 评论的内容 */
+
+.write-box {
+  padding: 20rpx 33rpx;
+  background-color: #fff;
+}
+
+.write1 {
+  display: flex;
+}
+
+.wrire-img {
+  width: 180rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+
+.write-user .name {
+  font-size: 32rpx;
+  color: #2e9aff;
+  margin-bottom: 10rpx;
+}
+
+.write-user .text {
+  font-size: 24rpx;
+}
+
+.write-user {
+  border-bottom: 1rpx solid #d3d3d3;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.write-user .img-list>image {
+  width: 150rpx;
+  height: 160rpx;
+}
+
+/* 底部评论 */
+
+.inme-call {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #2e9aff;
+  text-align: center;
+  color: #fff;
+  line-height: 90rpx;
+}
+
+/* 评论 */
+
+.pinglun-box {
+  position: fixed;
+  top: 0;
+  width: 750rpx;
+  height: 1330rpx;
+  background-color: rgba(90, 90, 90, 0.5);
+}
+
+.pinglun {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 0rpx 30rpx 30rpx 30rpx;
+  align-items: flex-end;
+}
+
+.submit {
+  width: 100rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  text-align: center;
+  background-color: #2e9aff;
+  color: white;
+  font-size: 36rpx;
+  margin-left: 15rpx;
+  border-radius: 8rpx;
+}
+
+.textarea {
+  width: 520rpx;
+  height: 190rpx;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 8rpx;
+  padding: 16rpx;
+}
+
+/* 右上角关闭 */
+
+.right-top-close {
+  position: absolute;
+  top:-10rpx;
+  right: 70rpx;
+  color: #999;
+  font-size: 66rpx;
+  transform: rotate(45deg);
+}
+.pinglun{
+  margin-left: 0rpx;
+}
+.pinglun-box{
+  position: fixed;
+  top: 0;
+  width: 750rpx;
+  height: 100%;
+  font-size: 30rpx;
+  font-weight:none;
+  background-color: rgba(90, 90, 90, 0.5);
+  
+}
+.pinglun-box .pinglun{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: #F5F5F5;
+  overflow: hidden;
+}
+textarea{
+  background-color: #fff;
+  /* margin-left: 35rpx; */
+  margin-top: 22rpx;
+  border-radius: 10rpx;
+  width: 530rpx;
+  height: 230rpx;
+  padding: 10rpx;
+}
+.submit{
+  width: 110rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #2e9aff;
+  margin-top: 210rpx;
+}
+.textarea{
+  height: 220rpx;
+  padding: 10rpx;
+}
+.call-way{
+  padding-bottom: 0rpx;
+}

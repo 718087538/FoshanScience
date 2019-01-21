@@ -1,0 +1,24 @@
+<!--pages/issue/produceCompany.wxml-->
+<view class='search'>
+  <input class='search-input' type='text' placeholder='搜索成果、检测服务'></input>
+  <image class="search-logo" src='/images/search.png'></image>
+</view>
+<!-- 顶部搜索结束 -->
+
+<view class='content'>
+  <form>
+    <view class='line1'><view>题目：</view>  <input type='text' placeholder='请输入题目' style='text-align:right' placeholder-class='placehoder-color'></input></view>
+    <view class='line1'><view>经费预算：</view>  <input type='text' placeholder='请输入经费' style='text-align:right' placeholder-class='placehoder-color'></input></view>
+    <view class='main-wrod'>关键词</view>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+      <input type='text' class='main-text' placeholder='请输入关键词' placeholder-class='placehoder-color'></input>
+    <view class='chengguo'>需求描述：</view>
+      <textarea type='text' placeholder='请描述需求'></textarea>
+  </form>
+</view>
+
+
+<view class='submit'>发布</view>

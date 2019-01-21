@@ -1,0 +1,18 @@
+<!--pages/my/companypeople.wxml-->
+<view class='content'>
+  <form>
+    <view class='line1'><view>姓名：</view>  <input type='text' placeholder='张三' style='text-align:right'></input></view>
+    <view class='line1'><view>学历：</view>  <input type='text' placeholder='本科' style='text-align:right'></input></view>
+    <view class='line1'><view>职称：</view>  <input type='text' placeholder='请输入职称' style='text-align:right'></input></view>
+    <view class='line1'><view>专业特长：</view>  <input type='text' placeholder='请输入专业特长' style='text-align:right'></input></view>
+    <view class='line1'><view>工作单位：</view>  <input type='text' placeholder='请输入单位' style='text-align:right'></input></view>
+    <view class='line1'><view>职位：</view>  <input type='text' placeholder='请输入职位' style='text-align:right'></input></view>
+    <view class='line1'><view>电话：</view>  <input type='text' placeholder='请输入电话' style='text-align:right'></input></view>
+    <view class='line1'><view>微信号：</view>  <input type='text' placeholder='请输入微信号' style='text-align:right'></input></view>
+  </form>
+</view>
+
+
+<view class='submit'>注册</view>
+
+

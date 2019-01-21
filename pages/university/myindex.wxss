@@ -1,0 +1,94 @@
+/* pages/university/myindex.wxss */
+@import "university.wxss";
+.list{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding-bottom: 14rpx;
+}
+.like{
+  border: none;
+  color: #2e9aff;
+}
+.img-list>image{
+  width: 205rpx;
+  height: 222rpx;
+  margin: 10rpx 34rpx 10rpx 0;
+}
+.img-list>image:nth-child(3n+3){
+  margin-right: 0;
+}
+.maintext{
+  border: 1rpx solid #999;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+  color: #999;
+  border-radius: 6rpx;
+}
+.main-text-wraper{
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* 一键联系 */
+.inme-call{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #2e9aff;
+  text-align: center;
+  color: #fff;
+  line-height: 90rpx;
+}
+
+.call-wraper{
+  position: fixed;
+  top: 0;
+  background-color: rgba(90, 90, 90, 0.5);
+  width:100%;
+  height:100%;
+}
+.call-way{
+  background-color: #fff;
+  width: 562rpx;
+  height: 350rpx;
+  border-radius: 10rpx;
+  margin: 50% auto auto;
+  overflow: hidden;
+  position: relative;
+}
+.getwx,.getphone{
+  width: 375rpx;
+	height: 92rpx;
+  line-height: 92rpx;
+  font-size: 38rpx;
+  color: #fff;
+  background-color: #2e9aff;
+  border-radius: 6rpx;
+  margin: 0 auto;
+  text-align: center;
+}
+.getwx{
+  margin-top: 60rpx;
+}
+.getphone{
+  margin-top: 30rpx;
+}
+/* 右上角关闭 */
+.right-top-close{
+  position: absolute;
+  right:6rpx;
+  top:-14rpx;
+  color: #999999;
+  font-size: 61rpx;
+  transform: rotate(45deg);
+}
+
+.call-way{
+  height: auto;
+  padding-bottom: 0rpx;
+}
+.getphone{
+  margin-bottom: 60rpx;
+}

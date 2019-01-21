@@ -1,0 +1,55 @@
+/* pages/produce/proCompanyInfo.wxss */
+@import "/pages/university/schoolIssDtl.wxss";
+
+.pinglun{
+  margin-left: 0rpx;
+}
+.pinglun-box{
+  position: fixed;
+  top: 0;
+  width: 750rpx;
+  height: 100%;
+  font-size: 30rpx;
+  font-weight:none;
+  background-color: rgba(90, 90, 90, 0.5);
+  
+}
+.pinglun-box .pinglun{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: #F5F5F5;
+  overflow: hidden;
+}
+textarea{
+  background-color: #fff;
+  margin-left: 35rpx;
+  margin-top: 22rpx;
+  border-radius: 10rpx;
+  width: 530rpx;
+  height: 230rpx;
+  padding: 10rpx;
+  margin-bottom: 60rpx;
+}
+.submit{
+  width: 110rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #2e9aff;
+  margin-top: 210rpx;
+}
+.textarea{
+  padding: 10rpx;
+}
+.call-way{
+   height: auto;
+  padding-bottom: 0rpx;
+}
+.getphone{
+  margin-bottom: 60rpx;
+}

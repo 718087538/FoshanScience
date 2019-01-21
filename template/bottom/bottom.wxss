@@ -1,0 +1,28 @@
+/* template/bottom/bottom.wxss */
+.bottom-nav{
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 10rpx 48rpx 10rpx 48rpx;
+  justify-content: space-between;
+  border-top: 2rpx solid #999;
+}
+.nav{
+  text-align: center;
+}
+.nav-img{
+  width: 44rpx;
+  height: 44rpx;
+  margin-bottom:-10rpx;
+}
+.nav-text{
+  text-align: center;
+  font-size: 26rpx;
+}
+/* 导航的字体颜色 */
+.nav-color{
+  color: #2e9aff;
+}
+

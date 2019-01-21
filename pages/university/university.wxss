@@ -1,0 +1,142 @@
+/* pages/university/university.wxss */
+page{
+  background-color: #eff3f6;
+}
+.search{
+  display: flex;
+  height: 60rpx;
+  padding: 24rpx 30rpx;
+  position: relative;
+
+}
+.input{
+  box-sizing: border-box;
+  font-size:32rpx;
+  color: #666;
+  width: 548rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  background: #fff;
+  border-radius:32rpx; 
+  padding-left: 28rpx;
+  padding-right: 60rpx;
+
+}
+.search-logo{
+  width: 34rpx;
+  height: 34rpx;
+  position: absolute;
+  right: 190rpx;
+  top:36rpx; 
+  }
+.make{
+  font-size: 32rpx;
+  color: #2e9aff;
+  height: 64rpx;
+  line-height: 64rpx;
+  margin-left: 30rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.make-add{
+  font-size: 42rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+/* 搜索到此结束 */
+
+/* 发布的消息 */
+.list{
+  padding: 30rpx;
+  background-color: #fff;
+  margin-bottom: 28rpx;
+}
+.list-user{
+  display: flex;
+}
+.list-user-pic{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+.list-user-info{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 30rpx;
+}
+.user-name{
+  margin-top: 6rpx;
+  font-size: 32rpx;
+  color: #2e9aff;
+  margin-bottom: 10rpx;
+}
+.user-item{
+  font-size: 24rpx;
+  color: #999;
+}
+.like,.favorites{
+  width: 104rpx;
+  height: 30rpx;
+  padding: 10 28rpx;
+  color: #999;
+  border: 2px solid #999;
+  border-radius: 6rpx;
+  font-size: 24rpx;
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+.list-info{
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #333;
+}
+
+/* 选择发布身份 */
+.identity-wrap{
+  position: fixed;
+  top: 0;
+  background-color: rgba(90, 90, 90, 0.5);
+  width:100%;
+  height:100%;
+}
+.btn-wrap{
+  background-color: #fff;
+  height: 350rpx;
+  width: 100%;
+  border-radius: 10rpx;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+.btn-wrap-danwei,.btn-wrap-people{
+  width: 375rpx;
+	height: 70rpx;
+  line-height: 70rpx;
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #2e9aff;
+  border-radius: 6rpx;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn-wrap-danwei{
+  margin-top: 80rpx;
+  margin-bottom: 40rpx;
+}
+/* 右上角关闭 */
+.right-top-close{
+  position: absolute;
+  right:6rpx;
+  top:-14rpx;
+  color: #999999;
+  font-size: 61rpx;
+  transform: rotate(45deg);
+}
+.active{
+  color: #2e9aff;
+  border-color: #2e9aff;
+}
+.identity-wrap{
+  z-index: 99;
+}

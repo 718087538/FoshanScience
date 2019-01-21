@@ -1,0 +1,10 @@
+<!--pages/my/callWe.wxml-->
+<view class='content'>
+  <view class='suggest'>意见反馈：</view>
+  <textarea placeholder='(请详细面试您的问题)' placeholder-class='place-color'></textarea>
+  <view class='callwe'><text>平台电话</text><text class='number'>53535353</text></view>
+  <view  class='callwe'><text>客服</text><text class='number'>53535353</text></view>
+</view>
+<view class='submit'>
+确认提交
+</view>

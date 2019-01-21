@@ -1,0 +1,41 @@
+/* pages/university/search.wxss */
+.search{
+  display: flex;
+  height: 60rpx;
+  padding: 24rpx 30rpx;
+  position: relative;
+
+}
+.input{
+  box-sizing: border-box;
+  font-size:32rpx;
+  color: #666;
+  width: 580rpx;
+  height: 64rpx;
+  background: #fff;
+  border-radius:32rpx; 
+  padding-left: 28rpx;
+  padding-right: 60rpx;
+  box-shadow: 0 2rpx 18rpx 3rpx rgba(68,164,254,0.15);
+}
+.search-logo{
+  width: 34rpx;
+  height: 34rpx;
+  position: absolute;
+  right: 156rpx;
+  top:36rpx; 
+  }
+.make{
+  font-size: 32rpx;
+  color: #2e9aff;
+  height: 64rpx;
+  line-height: 64rpx;
+  margin-left: 30rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.make-add{
+  font-size: 42rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+}

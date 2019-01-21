@@ -1,0 +1,39 @@
+/* pages/my/callWe.wxss */
+.content{
+  margin: 27rpx 34rpx 0;
+  font-size: 32rpx;
+}
+.suggest{
+  margin-bottom: 20rpx;
+}
+textarea{
+  width: 655rpx;
+  height: 410rpx;
+  padding: 10rpx;
+  border: 1rpx solid #f6f6f6;
+  background-color: #f6f6f6;
+}
+.callwe{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22rpx;
+}
+.number{
+  color: #bdbdbd;
+}
+.place-color{
+  color: #d8d8d8;
+}
+/* 确认提交按钮 */
+.submit{
+  width: 509rpx;
+	height: 92rpx;
+	background-color: #2e9aff;
+	border-radius: 8rpx;
+  font-size: 46rpx;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 92rpx;
+  margin-top: 260rpx;
+}

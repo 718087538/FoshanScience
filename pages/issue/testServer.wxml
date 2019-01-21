@@ -1,0 +1,13 @@
+<!--pages/issue/testServer.wxml-->
+<view class='content'>
+  <form>
+    <view class='line1'><view>名称：</view>  <input type='text' placeholder='请输入名称' style='text-align:right' placeholder-class='placehoder-color'></input></view>
+    <view class='line1'><view>报价：</view>  <input type='text' placeholder='请输入报价' style='text-align:right' placeholder-class='placehoder-color'></input></view>
+    <view class='chengguo'>检测资质：</view>
+    <view class='img-box'>
+      <image src='/images/smallpeople.png'></image>
+      <image src='/images/takephoto.png'></image>
+    </view>
+  </form>
+</view>
+<view class='submit'>发布</view>

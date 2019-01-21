@@ -1,0 +1,47 @@
+/* pages/my/myapplt.wxss */
+page{
+  background-color: #f7f7f7;
+}
+.title-out{
+  border-bottom: 1rpx solid #e8e8e8;
+}
+.title-info{
+  padding-right: 144rpx;
+  border-right: 1rpx solid #e8e8e8;
+}
+.title-info:last-child{
+  border-right: none;
+  padding-right: 0;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  width:520rpx;
+  margin: 0 auto;
+  height: 72rpx;
+  line-height: 72rpx;
+}
+.box{
+  margin: 32rpx;
+  font-size: 32rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+
+}
+.show{
+  color: #2e9aff;
+}
+.list{
+  display: flex;
+  padding: 0 22rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #e8e8e8;
+  justify-content: space-between;
+}
+.list:last-child{
+  border: none;
+}
+.loading{
+  color: #2e9aff;
+}

@@ -1,0 +1,26 @@
+<!--pages/my/news.wxml-->
+<navigator class='list list-news' url='/pages/my/systemNews'>
+<view>
+  <view class='title'>系统消息</view>
+  <view class='title-deta'>佛山科研发布了果果机器人</view>
+</view>
+<view class='care go'></view>
+</navigator>
+
+<navigator class='list' url='/pages/my/newsInfo'>
+<image class='name-pic' src='/images/user.png'></image>
+<view>
+  <view class='title'>虎超科技</view>
+  <view class='title-deta'>请问您这个是怎么做出来的呢？</view>
+</view>
+<view class='care'>2018.12.28</view>
+</navigator>
+
+<navigator class='list'>
+<image class='name-pic' src='/images/user.png'></image>
+<view>
+  <view class='title'>虎超科技</view>
+  <view class='title-deta'>请问您这个是怎么做出来的呢？</view>
+</view>
+<view class='care'>2018.12.28</view>
+</navigator>

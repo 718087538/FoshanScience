@@ -1,0 +1,62 @@
+/* pages/issue/testServer.wxss */
+page{
+  background-color: #eff3f6;
+}
+.content{
+  padding: 45rpx 30rpx;
+  font-size: 32rpx;
+}
+.line1{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-between; 
+  padding-bottom: 10rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 2rpx solid #dcdcdc;
+}
+.line1 input{
+  color: #666;
+}
+.main-wrod input{
+  border-bottom: 1rpx solid #dcdcdc;
+  padding-bottom: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+.img-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+}
+.img-box image{
+  width: 190rpx;
+  height: 206rpx;
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+  margin-right: 52rpx;
+}
+.img-box image:nth-child(3n+3){
+  margin-right: 0rpx;
+}
+/* 发布 */
+.submit{
+  width: 509rpx;
+	height: 92rpx;
+  position: fixed;
+	background-color: #2e9aff;
+	border-radius: 8rpx;
+  font-size: 46rpx;
+  color: #ffffff;
+  line-height: 92rpx;
+  text-align: center;
+  bottom: 52rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.chengguo{
+  margin-bottom: 20rpx;
+}
+
+.placehoder-color{
+  color: #d8d8d8;
+}

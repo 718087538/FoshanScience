@@ -1,0 +1,14 @@
+/* template/nav/nav.wxss */
+.line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line-go{
+  width: 22rpx;
+  height: 22rpx;
+  border-width: 4rpx 4rpx 0 0;
+  border-style: solid;
+  border-color: #2e9aff;
+  transform: rotate(45deg);
+}

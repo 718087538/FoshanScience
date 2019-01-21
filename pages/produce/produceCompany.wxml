@@ -1,0 +1,108 @@
+<!--pages/produce/produceCompany.wxml-->
+<view class='search'>
+  <navigator class='input' url='/pages/university/search'>搜索企业需求</navigator>
+  <image class='search-logo' src='/images/search.png'></image>
+  <view>
+    <view class="make" bindtap='issueItem'>需求发布</view>
+    <view class="make" bindtap='appltTest'>申请检测</view>
+  </view>
+</view>
+
+
+<view class='list'>
+  <view class='list-user'>
+
+    <navigator url='/pages/university/myindex'>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </navigator>
+
+    <view class='list-user-info'>
+
+      <navigator class='list-user-left' url='/pages/university/myindex'>
+        <view class='user-name'>虎超科技</view>
+        <view class='user-item'>佛山科研成果</view>
+      </navigator>
+
+      <view class='list-user-right'>
+        <view class='like careLike'>关注</view>
+        <view class='favorites'>收藏</view>
+      </view>
+    </view>
+  </view>
+
+<navigator url='/pages/produce/proCompanyInfo'>
+  <view class='list-info'>
+    某某企业需求详细描述，某某企业需求详细描述，某某企业需求 详细描述，某某企业需求详细描述，某某企业需求详细描述。
+  </view>
+
+  <view class='img-list'>
+    <image src='/images/smallpeople.png'></image>
+    <image src='/images/smallpeople.png'></image>
+  </view>
+
+  <!-- 关键词 -->
+  <view class='main-text-wraper'>
+    <view class='maintext' wx:for="{{maintext}}" wx:key>{{item}}</view>
+  </view>
+</navigator>
+
+</view>
+
+
+<!-- 第二个 -->
+
+<view class='list'>
+  <view class='list-user'>
+
+    <navigator url=''>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </navigator>
+
+    <view class='list-user-info'>
+
+      <navigator class='list-user-left'>
+        <view class='user-name'>虎超科技</view>
+        <view class='user-item'>佛山科研成果</view>
+      </navigator>
+
+      <view class='list-user-right'>
+        <view class='like'>关注</view>
+        <view class='favorites careLike'>已收藏</view>
+      </view>
+    </view>
+  </view>
+
+<navigator url='/pages/university/issue-delail'>
+  <view class='list-info'>
+    某某企业需求详细描述，某某企业需求详细描述，某某企业需求 详细描述，某某企业需求详细描述，某某企业需求详细描述。
+  </view>
+
+  <view class='img-list'>
+    <image src='/images/smallpeople.png'></image>
+    <image src='/images/smallpeople.png'></image>
+  </view>
+
+  <!-- 关键词 -->
+  <view class='main-text-wraper'>
+    <view class='maintext' wx:for="{{maintext}}" wx:key>{{item}}</view>
+  </view>
+</navigator>
+</view>
+
+<!-- 选择生产企业发布的身份 -->
+<view class='call-wraper {{companymake}} fixedbtm1'>
+  <view class='call-way fixedbtm2'>
+    <navigator class='getwx' url="/pages/issue/issueNeed">生产企业单位发布</navigator>
+    <navigator class='getphone' url="/pages/issue/peopleIssueNeed">生产企业个人发布</navigator>
+  <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view> 
+
+<!-- 选择申请检测的类型 -->
+<view class='call-wraper {{appltTest}} fixedbtm1'>
+  <view class='call-way fixedbtm2'>
+    <navigator class='getwx' url="/pages/issue/issue" url='/pages/produce/appltTeaServer'>申请技术服务</navigator>
+    <navigator class='getphone' url="/pages/issue/peopleIssue" url='/pages/produce/appltTest'>申请检测</navigator>
+  <view class='right-top-close' bindtap='close'>+</view>
+  </view>
+</view> 

@@ -1,0 +1,10 @@
+<!--pages/my/mycare.wxml-->
+<navigator class='list' url='/pages/my/mycaritem'>
+<image class='name-pic' src='/images/user.png'></image>
+<view>
+  <view class='title'>虎超科技</view>
+  <view class='title-deta'>佛山科研成果小程序</view>
+</view>
+<view class='care'>取消关注</view>
+</navigator>
+

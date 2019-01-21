@@ -1,0 +1,63 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.0",
+	"appid": "wx3c837fb20dbe6558",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "模板",
+					"pathName": "pages/university/issue-delail",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "当前",
+					"pathName": "pages/produce/produceCompany",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "找复用的东西",
+					"pathName": "pages/my/my",
+					"query": ""
+				}
+			]
+		}
+	}
+}

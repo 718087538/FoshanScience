@@ -1,0 +1,11 @@
+/* pages/my/systemNewsDeta.wxss */
+@import "systemNews.wxss";
+.news-info{
+  margin: 10rpx 30rpx;
+  padding: 20rpx;
+  height: 562rpx;
+  background-color: #fff;
+  font-size: 24rpx;
+  color: #999;
+  border-radius: 5rpx;
+}

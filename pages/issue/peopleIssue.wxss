@@ -1,0 +1,2 @@
+/* pages/issue/peopleIssue.wxss */
+@import "issueNeed.wxss";

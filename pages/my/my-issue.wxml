@@ -1,0 +1,83 @@
+<!--pages/my/my-issue.wxml-->
+
+<view class='list'>
+  <view class='list-user'>
+
+    <view>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </view>
+
+    <view class='list-user-info'>
+
+      <view class='list-user-left'>
+        <view class='user-name'>虎超科技</view>
+        <view class='user-item'>佛山科研成果小程序</view>
+      </view>
+
+      <view class='list-user-right'>
+        <view class='like'>删除</view>
+      </view>
+    </view>
+  </view>
+
+<navigator url='/pages/my/issueInfo'>
+  <view class='list-info'>
+    某某企业需求详细描述，某某企业需求详细描述，某某企业需求 详细描述，某某企业需求详细描述，某某企业需求详细描述。
+  </view>
+
+  <view class='img-list'>
+    <image src='/images/smallpeople.png'></image>
+    <image src='/images/smallpeople.png'></image>
+  </view>
+
+  <!-- 关键词 -->
+  <view class='main-text-wraper'>
+    <view class='maintext' wx:for="{{maintext}}" wx:key>{{item}}</view>
+  </view>
+</navigator>
+
+</view>
+
+
+<!-- 第二个成果 -->
+<view class='list'>
+  <view class='list-user'>
+
+    <navigator url=''>
+      <image class='list-user-pic' src='/images/user.png'></image>
+    </navigator>
+
+    <view class='list-user-info'>
+
+      <navigator class='list-user-left'>
+        <view class='user-name'>虎超科技</view>
+        <view class='user-item'>佛山科研成果小程序</view>
+      </navigator>
+
+      <view class='list-user-right'>
+        <view class='like'>删除</view>
+      </view>
+    </view>
+  </view>
+<navigator url='/pages/my/issueInfo'>
+
+  <view class='list-info'>
+    某某企业需求详细描述，某某企业需求详细描述，某某企业需求 详细描述，某某企业需求详细描述，某某企业需求详细描述。
+  </view>
+
+  <view class='img-list'>
+    <image src='/images/smallpeople.png'></image>
+    <image src='/images/smallpeople.png'></image>
+  </view>
+
+
+  <view class='main-text-wraper'>
+    <view class='maintext' wx:for="{{maintext}}" wx:key>{{item}}</view>
+  </view>
+</navigator>
+
+</view>
+
+
+<!-- 底部的空白 -->
+<view style="height:90rpx;"></view>
